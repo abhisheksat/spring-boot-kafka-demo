@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "e0edfc00-8d8a-450e-bbdf-6074b4bcc35b",
+		"name": "Spring Boot - WebFlux + Kafka Streaming",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38164243"
+	},
+	"item": [
+		{
+			"name": "Kafka Stream - Wikimedia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/wikimedia",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"wikimedia"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
